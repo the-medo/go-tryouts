@@ -1,4 +1,4 @@
-package main
+package generics
 
 import "fmt"
 
@@ -6,7 +6,7 @@ type Number interface {
 	int64 | float64
 }
 
-func main() {
+func Run() {
 	// Initialize a map for the integer values
 	ints := map[string]int64{
 		"first":  34,
